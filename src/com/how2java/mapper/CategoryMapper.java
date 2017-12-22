@@ -12,7 +12,7 @@ public interface CategoryMapper {
     public void delete(int id);  
     // select。 获得单个   
     public Category get(int id);  
-     // 更新
+     // 更新  
     public void update(Category category);   
       //  获得多个
     public List<Category> list();

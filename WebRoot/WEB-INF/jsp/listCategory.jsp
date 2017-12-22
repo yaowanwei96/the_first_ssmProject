@@ -10,8 +10,9 @@
     </tr>
     <c:forEach items="${cs}" var="c" varStatus="st">
         <tr>
+          <td>${c.name}</td> 
             <td>${c.id}</td>
-            <td>${c.name}</td> 
+          
         </tr>
     </c:forEach>
 </table>

@@ -3,7 +3,7 @@
          xmlns="http://java.sun.com/xml/ns/javaee"
          xmlns:web="http://java.sun.com/xml/ns/javaee"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
-     <!-- 作用
+     <!-- 作用 
      1.通过ContextLoaderListener在web APP启动的时候，获取contextConfigLocation配置文件的文件名
      applicationContext.xml，并进行Spring相关初始化工作
      2.有任何访问，都被DispatcherServlet所拦截，这就是springMVC那套工作机制了。

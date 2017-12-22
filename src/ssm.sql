@@ -1,6 +1,6 @@
 create database how2java;
 use how2java;
-  
+   
 CREATE TABLE category_ (
   id int(11) NOT NULL AUTO_INCREMENT,
   name varchar(30) ,

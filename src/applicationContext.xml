@@ -29,7 +29,7 @@
       <property name="password">  
           <value>102400</value>  
       </property>     
-    </bean>
+    </bean>  
      <!-- 扫描存放sql语句的Category.xml -->
     <bean id="sqlSession" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="typeAliasesPackage" value="com.how2java.pojo" />

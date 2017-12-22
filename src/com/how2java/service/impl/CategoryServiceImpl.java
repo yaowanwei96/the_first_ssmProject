@@ -13,7 +13,7 @@ import com.how2java.service.CategoryService;
 //≤¢«“◊∞≈‰¡ÀcategoryMapper
 @Service
 public class CategoryServiceImpl  implements CategoryService{
-    @Autowired
+    @Autowired  
     CategoryMapper categoryMapper;
      
     public List<Category> list(){

@@ -12,7 +12,7 @@
             delete from category_ where id= #{id}   
         </delete>
          
-        <select id="get" parameterType="_int" resultType="Category">
+        <select id ="get" parameterType="_int" resultType="Category">
             select * from   category_  where id= #{id}    
         </select>
  
